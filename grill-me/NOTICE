@@ -1,0 +1,14 @@
+grill-me is adapted from mattpocock/skills (skills/productivity/grill-me and
+skills/productivity/grilling, upstream commit 4ae2317), MIT License, Copyright (c) 2026 Matt Pocock,
+first obtained through the unmodified copy at github.com/amitkuzi/skills (commit bc5895a). The
+upstream license text is in LICENSE.
+
+Modifications Copyright (c) 2026 muthub-ai, released under the same MIT License.
+
+What changed from upstream:
+- One question at a time instead of rounds; "batch" brings back a whole round on request.
+- A grounding step: the team's OKF v0.2 knowledge through the consult skill, a file, or an idea.
+- Plans are challenged against existing decisions, with citations.
+- An optional OKF v0.2 draft is written at the end, on request.
+- Upstream sets `disable-model-invocation: true` (user-invoked only). This version can also be
+  triggered by its description ("grill me about ...").
